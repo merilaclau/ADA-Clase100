@@ -1,0 +1,14 @@
+.img-container {
+    align-items: center;
+    background-color: royalblue;
+    border: solid 10px royalblue;
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px auto;
+    height: 400px;
+    overflow: hidden;
+    width: 600px;
+    img {
+        width: 100%;
+    }
+}

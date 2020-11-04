@@ -1,0 +1,17 @@
+.random-img-btn {
+    background-color: royalblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    &:hover, &:checked {
+        background-color:darken( royalblue, 10%);
+    }
+    &:active, &:focus {
+        outline: none;
+      }
+
+}
